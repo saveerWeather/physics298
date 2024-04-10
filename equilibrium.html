@@ -1,0 +1,642 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:w="urn:schemas-microsoft-com:office:word"
+  xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+  xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=ISO-8859-1">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word 10">
+    <meta name="Originator" content="Microsoft Word 10">
+    <link rel="File-List" href="friction_files/filelist.xml">
+    <link rel="Edit-Time-Data" href="friction_files/editdata.mso">
+    <!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+    <title>Equilibrium (Statics) - Physics 298</title>
+  </head>
+  <body style=" background-color: white;" alink="#ff0000" lang="EN-US"
+    link="#0000ee" vlink="#551a8b">
+    <o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="PlaceName"></o:smarttagtype> <o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="PlaceType"></o:smarttagtype><o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="place"></o:smarttagtype><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Chris L. Davis</o:Author>
+  <o:LastAuthor>Chris L. Davis</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>4</o:TotalTime>
+  <o:Created>2007-07-18T18:12:00Z</o:Created>
+  <o:LastSaved>2007-08-17T17:30:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>458</o:Words>
+  <o:Characters>2614</o:Characters>
+  <o:Company>University of Louisville</o:Company>
+  <o:Lines>21</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3066</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+    <style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	color:black;}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	color:black;}
+a:link, span.MsoHyperlink
+	{color:#0000EE;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#551A8B;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:56.7pt 42.5pt 56.7pt 85.05pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:149639605;
+	mso-list-template-ids:-1102399034;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:543719009;
+	mso-list-template-ids:1050676298;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:1132484886;
+	mso-list-template-ids:-480357722;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1140348590;
+	mso-list-template-ids:817004542;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:1294024362;
+	mso-list-template-ids:2041859820;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5
+	{mso-list-id:1830634456;
+	mso-list-template-ids:84202764;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:1864971748;
+	mso-list-template-ids:1561517500;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:1876769666;
+	mso-list-template-ids:1977498468;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+  </style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+    <meta name="Author" content="C. L. Davis">
+    <!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="4098"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+    <div class="Section1">
+      <h1 style="text-align: center;" align="center"><img
+          id="_x0000_i1025" src="ULPhys1.gif" align="texttop"
+          height="50" width="189"></h1>
+      <h1 style="text-align: center;" align="center">Statics:
+        Equilibrium of Rigid Bodies<br>
+      </h1>
+      <p class="MsoNormal" style="text-align: center;" align="center"><img
+          id="_x0000_i1026" src="celticbar.gif" height="22" width="576"><br>
+        <br>
+        <i><span style="color: red;">&#8220;Equations are more important to
+            me, because politics is for the present, but an equation is
+            something for eternity&#8221;<br>
+          </span></i><span style="color: rgb(0, 0, 0);">Albert Einstein<br>
+          &nbsp;<img style="width: 280px; height: 200px;" alt="see saw"
+            src="humphjeremyseesaw.gif"></span><i><span style="color:
+            red;"><br>
+          </span></i></p>
+      <p class="MsoNormal"><img style="width: 100%; height: 40px;"
+          alt="netbar" id="_x0000_i1027" src="netbar.gif" align="middle"></p>
+      <ul>
+        <li> A rigid body is in equilibrium if it is at <span
+            style="font-weight: bold;">rest</span> in an <span
+            style="font-style: italic;">inertial reference frame</span>.</li>
+      </ul>
+      <br>
+      <div style="margin-left: 40px;">[Inertial reference frames are
+        frames moving at constant velocity with respect to one another]<br>
+      </div>
+      <ul>
+        <li>A body at rest in the inertial reference frame of the earth
+          is said to be in <span style="font-weight: bold;">static
+            equilibrium</span>.</li>
+      </ul>
+      <ul>
+        <li>A body at rest in any other inertial reference frame is said
+          to be in <span style="font-weight: bold;">dynamic equilibrium</span>.</li>
+      </ul>
+      <ul>
+        <li>&nbsp;Since an object moving at constant velocity is at rest
+          in <span style="font-style: italic;">some</span> inertial
+          reference frame we need only consider conditions for static
+          equilibrium.&nbsp; In static equilibrium an object must
+          satisfy the conditions for both translational and rotational
+          equilibrium.</li>
+      </ul>
+      <ul style="font-weight: bold; text-decoration: underline;">
+        <li>TRANSLATIONAL EQUILIBRIUM</li>
+      </ul>
+      <br>
+      <div style="margin-left: 40px;">&nbsp;Linear acceleration,&nbsp; <span
+          style="font-weight: bold;">a</span><sub style="font-weight:
+          bold;">cm</sub>= 0, therefore&nbsp; <span style="font-weight:
+          bold;">F</span><sub style="font-weight: bold;">ext</sub> = M<span
+          style="font-weight: bold;">a</span><sub style="font-weight:
+          bold;">cm</sub> = 0, where<br>
+        <br>
+        <div style="text-align: center;"><img style="width: 330px;
+            height: 32px;" alt="eqn1" src="equilib_eqn1.jpg"><br>
+          <div style="text-align: left;">or<br>
+            <br>
+            <div style="text-align: center;"><img style="width: 200px;
+                height: 80px;" alt="eqn2" src="equilib_eqn2.gif"><br>
+              <br>
+              <div style="text-align: left;">In this course we will
+                limit ourselves to problems in which all forces are
+                acting in a plane, meaning that there will only be x and
+                y equations.<br>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; font-weight: bold;">
+        <div style="text-align: left;">
+          <div style="text-align: center;">
+            <div style="text-align: left;">
+              <ul style="text-decoration: underline;">
+                <li>ROTATIONAL EQUILIBRIUM</li>
+              </ul>
+              <br>
+              <div style="margin-left: 40px;"><span style="font-weight:
+                  normal;">Angular acceleration = 0, therefore <img
+                    style="width: 78px; height: 17px;" alt="eqn5"
+                    src="equilib5.jpg" align="middle">, where<br>
+                  <br>
+                </span>
+                <div style="text-align: center;"><span
+                    style="font-weight: normal;"><img style="width:
+                      290px; height: 25px;" alt="eqn3"
+                      src="equilib_eqn3.jpg"><br>
+                    <br>
+                  </span>
+                  <div style="text-align: left;"><span
+                      style="font-weight: normal;">or<br>
+                    </span>
+                    <div style="text-align: center;"><span
+                        style="font-weight: normal;"><img style="width:
+                          179px; height: 73px;" alt="eqn4"
+                          src="equilib_eqn4.gif"><br>
+                        <br>
+                      </span>
+                      <div style="text-align: left;"><span
+                          style="font-weight: normal;">In this course we
+                          will limit ourselves to problems in which all
+                          forces act in a plane, which means there can
+                          only be torques about an axis perpendicular to
+                          this plane (typically the z axis).&nbsp;
+                          Therefore, only the z torque equation above
+                          will be necessary.<br>
+                          <br>
+                        </span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="text-align: center;">
+                <div style="text-align: left;">
+                  <div style="text-align: center;">
+                    <div style="text-align: left;">
+                      <ul>
+                        <ul>
+                          <li><span style="font-weight: normal;"><img
+                                style="width: 31px; height: 30px;"
+                                alt="excl" src="exclamation-icon.gif">The
+
+
+
+
+
+
+
+                              choice of axis about which to calculate
+                              torques is arbitrary.&nbsp; If the sum of
+                              the torques about one axis is zero the
+                              body is not rotating; using a different
+                              axis to calculate torques will not cause
+                              the body to rotate, thus the total torque
+                              must still be zero.</span></li>
+                        </ul>
+                      </ul>
+                      <span style="font-weight: normal;"><br>
+                      </span>
+                      <ul>
+                        <ul>
+                          <li><span style="font-weight: normal;"><img
+                                style="width: 79px; height: 43px;"
+                                alt="hot" src="hot.gif">Although all
+                              axes are arbitrary in any specific
+                              situation there are typically certain
+                              choices of axes about which to calculate
+                              torques which will make your life easier.</span></li>
+                        </ul>
+                      </ul>
+                      <br>
+                      <div style="margin-left: 40px;">
+                        <ol>
+                          <ol>
+                            <li><span style="font-weight: normal;">Choose
+
+
+
+
+
+
+
+                                an axis through which as many forces as
+                                possible act, the torque of these forces
+                                about such an axis are zero.</span></li>
+                          </ol>
+                          <br>
+                          <ol start="2">
+                            <li><span style="font-weight: normal;">Choose
+
+
+
+
+
+
+
+                                an axis such that one or more of the
+                                unknown forces in the problem act
+                                through this axis.</span></li>
+                          </ol>
+                        </ol>
+                        <span style=" font-weight: normal;"><br>
+                        </span> </div>
+                      <ul>
+                        <li><span style="font-weight: normal;"><img
+                              style="width: 31px; height: 30px;"
+                              alt="excl" src="exclamation-icon.gif"> </span>General
+
+
+                          Comments</li>
+                      </ul>
+                      <ul>
+                        <ul>
+                          <li><span style="font-weight: normal;"> If all
+                              forces acting on a body are concurrent
+                              then rotational equilibrium is assured, we
+                              need only apply the conditions for
+                              translational equilbrium.</span> </li>
+                        </ul>
+                      </ul>
+                      <ul>
+                        <ul>
+                          <li><span style="font-weight: normal;">If
+                              there is more than one body in the problem
+                              consider the equilibrium of each body
+                              separately.</span></li>
+                        </ul>
+                      </ul>
+                      <span style="font-weight: normal;"><br>
+                      </span>
+                      <ul>
+                        <li><span style="font-weight: normal;">Example
+                            of a static structure - <a
+                              href="ironbridge.jpg">IRONBRIDGE</a></span><br>
+                        </li>
+                      </ul>
+                      <div style="margin-left: 40px;"><br>
+                        <span style="font-weight: normal;"><br>
+                        </span></div>
+                      <p class="MsoNormal"><img style="width: 100%;
+                          height: 40px;" alt="netbar" id="_x0000_i1032"
+                          src="netbar.gif"><br>
+                      </p>
+                      <div style="text-align: center;"><img
+                          style="width: 280px; height: 200px;"
+                          alt="extreme see saw" src="extremeseesaw.gif"><br>
+                      </div>
+                      <p class="MsoNormal"><br>
+                      </p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center"><i style=""><span style="color:
+                            red;">"In the long run we are all dead"<br>
+                          </span></i><span style="color: rgb(0, 0, 0);">John
+
+
+
+
+
+
+                          Maynard Keynes &#8211; A tract on Monetary Reform
+                          (1923)</span><i style=""><span style="color:
+                            red;"><br>
+                            <o:p></o:p></span></i></p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center"><br>
+                        <img id="_x0000_i1033" src="celticbar.gif"
+                          height="22" width="576"><span style=""
+                          lang="FR"><o:p></o:p></span></p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center">&nbsp;<o:p></o:p></p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center"><i>Dr. C. L. Davis</i><o:p></o:p></p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center"><i>Physics Department</i></p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center"><st1:place><st1:placetype><i>University</i></st1:placetype><i>
+                            of </i><st1:placename><i>Louisville</i></st1:placename></st1:place></p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center"><span class="GramE"><i>email</i></span>:
+                        <a href="mailto:c.l.davis@louisville.edu">c.l.davis@louisville.edu</a>
+                      </p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center">&nbsp;</p>
+                      <p class="MsoNormal" style="text-align: center;"
+                        align="center"><img id="_x0000_i1034"
+                          src="header-index.gif" border="0" height="51"
+                          width="92"></p>
+                      <p class="MsoNormal">&nbsp; <br>
+                        &nbsp; </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

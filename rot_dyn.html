@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html xmlns="http://www.w3.org/TR/REC-html40"
+  xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+  xmlns:w="urn:schemas-microsoft-com:office:word"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word 10">
+    <meta name="Originator" content="Microsoft Word 10">
+    <link rel="File-List" href="rot_dyn_files/filelist.xml">
+    <link rel="Edit-Time-Data" href="rot_dyn_files/editdata.mso">
+    <link rel="OLE-Object-Data" href="rot_dyn_files/oledata.mso">
+    <!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+    <title>Rotational Dynamics - Physics 298</title>
+  </head>
+  <body style="" vlink="#551a8b" lang="EN-US" link="#0000ee"
+    bgcolor="white" alink="#ff0000">
+    <o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="country-region"></o:smarttagtype> <o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="City"></o:smarttagtype><o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="place"></o:smarttagtype><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Chris L. Davis</o:Author>
+  <o:LastAuthor>Chris L. Davis</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>834</o:TotalTime>
+  <o:Created>2007-08-02T16:17:00Z</o:Created>
+  <o:LastSaved>2007-08-02T16:26:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>472</o:Words>
+  <o:Characters>2691</o:Characters>
+  <o:Company>University of Louisville</o:Company>
+  <o:Lines>22</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3157</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+    <style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	color:black;
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:#0000EE;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#551A8B;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:6948823;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-346236412 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:990452124;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1998382636 67698703 67698689 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.75in;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:1055079292;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-692280500 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:1688680359;
+	mso-list-template-ids:2006630320;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:1843736593;
+	mso-list-template-ids:1560300092;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:1953516231;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-267601714 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+  </style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+    <meta name="Author" content="C. L. Davis">
+    <!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="17410">
+  <o:colormenu v:ext="edit" fillcolor="white" strokecolor="black"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+    <div class="Section1">
+      <h1 style="text-align: center;" align="center"><img
+          id="_x0000_i1025" src="ULPhys1.gif" width="189" height="50"
+          align="texttop"></h1>
+      <h1 style="text-align: center;" align="center">Rotational Dynamics</h1>
+      <p class="MsoNormal" style="text-align: center;" align="center"><img
+          id="_x0000_i1026" src="celticbar.gif" width="576" height="22"><br>
+        <br>
+        <span style="color: red;">[A journalist] asked,<i> ‘Mr.
+            Gandhi, what do you think of modern <span class="GramE">civilization
+              ?’</span>
+          </i>And Mr. Gandhi said<i> ‘That would be a good idea’ </i></span><br>
+        Mahatma Gandhi – on arriving in <st1:country-region><st1:place>England</st1:place></st1:country-region>
+        (1930)</p>
+      <h3><font><img
+            src="http://www.physics.louisville.edu/cldavis/phys298/notes/netbar.gif"
+            width="100%" height="40" align="middle">
+          <br>
+        </font></h3>
+      <ul style="margin-top: 0in;" type="disc">
+        <li class="MsoNormal" style="">By analogy with translational
+          motion,
+          in order to discuss rotational dynamics we introduce the
+          concept of <b style=""><i style="">torque</i></b> or <b
+            style=""><i style="">rotational
+              force</i></b>.<span style="">&nbsp; </span>Force alone is
+          not
+          sufficient since the angular acceleration achieved by a
+          constant force
+          will depend where the force is applied.</li>
+      </ul>
+      <p class="MsoNormal" style="margin-left: 0.25in;"><o:p>&nbsp;</o:p></p>
+      <ul style="margin-top: 0in;" type="disc">
+        <li class="MsoNormal" style=""><b style=""><u><span
+                style="font-size: 14pt;">Torque</span></u></b>
+          (sometimes called
+          angular force or moment of force) is defined as follows.</li>
+      </ul>
+      <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.25in; text-align:
+        center;" align="center"><sub><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1028" type="#_x0000_t75" style='width:158.25pt;
+ height:21pt' o:ole="">
+ <v:imagedata src="rot_dyn_files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+            src="rot_dyn_files/image002.gif" v:shapes="_x0000_i1028"
+            width="211" height="28"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1028"
+  DrawAspect="Content" ObjectID="_1247562745">
+ </o:OLEObject>
+</xml><![endif]--></p>
+      <p class="MsoNormal" style="margin-left: 0.25in; text-align:
+        center;" align="center"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><span
+          class="GramE">where</span>
+        <b style="">r</b> is the vector from the axis of
+        rotation to the point at which the force is applied, such that <b
+          style="">r</b> is perpendicular to the axis and
+        theta is the angle between <b style="">r</b> and <b style="">F</b>.</p>
+      <p class="MsoNormal" style="margin-left: 0.5in; text-align:
+        center;" align="center"><!--[if gte vml 1]><v:shape
+ id="_x0000_i1029" type="#_x0000_t75" style='width:276pt;height:252pt'>
+ <v:imagedata src="rot_dyn_files/image003.jpg" o:title="rot_dyn1"/>
+</v:shape><![endif]--><!--[if !vml]--><img
+          src="rot_dyn_files/image004.jpg" v:shapes="_x0000_i1029"
+          width="368" height="336"><!--[endif]--></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;">Note that the
+        torque,
+        angular
+        velocity and angular acceleration are all directed along the
+        axis of
+        rotation.</p>
+      <p class="MsoNormal" style="margin-left: 0.5in;">The magnitude of
+        the
+        torque can be
+        thought of as the product of either<br>
+        <br>
+      </p>
+      <p class="MsoNormal" style="margin-left: 1.25in; text-indent:
+        -0.25in;"><!--[if !supportLists]--><span style="">1.<span
+            style="font-family: &quot;Times New Roman&quot;; font-style:
+            normal; font-variant: normal; font-weight: normal;
+            font-size: 7pt; line-height: normal; font-size-adjust: none;
+            font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span></span><!--[endif]-->the
+        force and perpendicular distance between the line of action of
+        the
+        force and
+        the turning point (<span class="SpellE">r<sub>perp</sub>F</span>)
+        or</p>
+      <p class="MsoNormal" style="margin-left: 1.25in; text-indent:
+        -0.25in;"><!--[if !supportLists]--><span style="">2.<span
+            style="font-family: &quot;Times New Roman&quot;; font-style:
+            normal; font-variant: normal; font-weight: normal;
+            font-size: 7pt; line-height: normal; font-size-adjust: none;
+            font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span></span><!--[endif]-->the
+        distance of the turning point from the point of action of the
+        force and
+        the
+        component of the force perpendicular to this line (<span
+          class="SpellE">rF<sub>perp</sub></span>)</p>
+      <p class="MsoNormal" style="margin-left: 1in;"><o:p>&nbsp;</o:p></p>
+      <!--[if !supportLists]--><span style="font-family: Symbol;"><span
+          style=""><span style="font-family: &quot;Times New
+            Roman&quot;; font-style: normal; font-variant: normal;
+            font-weight: normal; font-size: 7pt; line-height: normal;
+            font-size-adjust: none; font-stretch: normal;">
+          </span></span></span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_i1030"
+ type="#_x0000_t75" style='width:23.25pt;height:22.5pt'>
+ <v:imagedata src="rot_dyn_files/image005.gif" o:title="exclamation-icon"/>
+</v:shape><![endif]--><!--[if !vml]-->
+      <div style="margin-left: 80px;"><img
+          src="rot_dyn_files/image005.gif" v:shapes="_x0000_i1030"
+          width="31" height="30"><span style="">&nbsp;</span><span
+          class="SpellE">F<sub>parallel</sub></span>
+        produces zero torque (theta = 0).<span style="">&nbsp;
+        </span>Pushing on directly on the axis of rotation will not
+        create
+        rotation.</div>
+      <!--[endif]--><!--[if !supportLists]--><span style="font-family:
+        Symbol;"><span style=""><span style="font-family: &quot;Times
+            New Roman&quot;; font-style: normal; font-variant: normal;
+            font-weight: normal; font-size: 7pt; line-height: normal;
+            font-size-adjust: none; font-stretch: normal;">
+          </span></span></span><!--[endif]-->
+      <div style="margin-left: 80px;"><img
+          src="rot_dyn_files/image005.gif" v:shapes="_x0000_i1031"
+          width="31" height="30"><span style="">&nbsp;</span>Reversing
+        <b style="">r</b>
+        or <b style="">F</b> leaves the magnitude of the
+        torque unchanged, but will reverse its direction (rotation will
+        take
+        place in
+        the opposite direction)</div>
+      <!--[endif]-->
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><i style=""><u>Units</u></i>:<span
+          style="">&nbsp; </span><span class="SpellE"><span
+            class="GramE"><b style="">Newton.metre</b></span></span><span
+          class="GramE"><b style=""><span style="">&nbsp; </span>(</b></span><span
+          class="SpellE"><b style="">N.m</b></span><b style="">)<br>
+          <br>
+        </b></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><!--[if gte vml 1]><v:shape id="_x0000_i1032"
+ type="#_x0000_t75" style='width:23.25pt;height:22.5pt'>
+ <v:imagedata src="rot_dyn_files/image005.gif" o:title="exclamation-icon"/>
+</v:shape><![endif]--><!--[if !vml]--><img
+          src="rot_dyn_files/image005.gif" v:shapes="_x0000_i1032"
+          width="31" height="30"><!--[endif]--><span style="">&nbsp;</span>Joules
+        are also
+        equivalent to <span class="SpellE">N.m</span>, but you should
+        always
+        use <span class="SpellE">N.m</span>
+        for torque, never Joules.</p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <ul style="margin-top: 0in;" type="disc">
+        <li class="MsoNormal" style=""><!--[if gte vml 1]><v:shape
+      id="_x0000_s1036" type="#_x0000_t75" style='position:absolute;left:0;
+      text-align:left;margin-left:233pt;margin-top:0;width:273pt;height:195.75pt;
+      z-index:1;mso-position-horizontal:right;mso-position-vertical:top;
+      mso-position-vertical-relative:line' o:allowoverlap="f">
+      <v:imagedata src="rot_dyn_files/image014.gif" o:title="Torque_animation"/>
+      <o:lock v:ext="edit" cropping="t"/>
+      <w:wrap type="square"/>
+     </v:shape><![endif]--><!--[if !vml]--><img
+            src="rot_dyn_files/image014.gif" v:shapes="_x0000_s1036"
+            width="364" hspace="12" height="261" align="right"><!--[endif]--><b
+            style=""><u><span style="font-size: 14pt;">Angular Momentum</span></u></b></li>
+      </ul>
+      <p class="MsoNormal" style="margin-left: 0.25in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;">Defined in a
+        similar
+        manner to
+        torque,</p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in; text-align:
+        center;" align="center"><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1036" type="#_x0000_t75" style='width:156.75pt;height:24pt' o:ole="">
+ <v:imagedata src="rot_dyn_files/image006.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+            src="rot_dyn_files/image007.gif" v:shapes="_x0000_i1036"
+            width="209" height="32"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1036"
+  DrawAspect="Content" ObjectID="_1247562746">
+ </o:OLEObject>
+</xml><![endif]--></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><span
+          class="GramE">where</span>
+        <b style="">r</b> and theta are defined in exactly the
+        same way as for torque.</p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><i style=""><u>Units</u></i>:<span
+          style="">&nbsp; </span><b style="">kg.m<sup>2</sup>/s<o:p></o:p></b></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <ul style="margin-top: 0in;" type="disc">
+        <li class="MsoNormal" style=""><b style=""><u><span
+                style="font-size: 14pt;">Newton’s 2<sup>nd</sup> Law</span></u></b></li>
+      </ul>
+      <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;">Taking the
+        definition
+        of angular
+        momentum and differentiating with respect to time we can show
+        that,</p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in; text-align:
+        center;" align="center"><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1037" type="#_x0000_t75" style='width:36.75pt;height:33pt' o:ole="">
+ <v:imagedata src="rot_dyn_files/image008.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+            src="rot_dyn_files/image009.gif" v:shapes="_x0000_i1037"
+            width="49" height="44"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1037"
+  DrawAspect="Content" ObjectID="_1247562747">
+ </o:OLEObject>
+</xml><![endif]--></p>
+      <p class="MsoNormal" style="margin-left: 0.5in; text-align:
+        center;" align="center"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><span
+          class="GramE">which</span>
+        is
+        the rotational equivalent of<span style="">&nbsp; </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1038" type="#_x0000_t75" style='width:39.75pt;height:30.75pt'
+ o:ole="">
+ <v:imagedata src="rot_dyn_files/image010.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+            src="rot_dyn_files/image011.gif" v:shapes="_x0000_i1038"
+            width="53" height="41"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1038"
+  DrawAspect="Content" ObjectID="_1247562748">
+ </o:OLEObject>
+</xml><![endif]-->.</p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><o:p>&nbsp;</o:p></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;">Extending this to
+        a
+        system of
+        particles,</p>
+      <p class="MsoNormal" style="margin-left: 0.5in; text-align:
+        center;" align="center"><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1039" type="#_x0000_t75" style='width:170.25pt;height:38.25pt'
+ o:ole="">
+ <v:imagedata src="rot_dyn_files/image012.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+            src="rot_dyn_files/image013.gif" v:shapes="_x0000_i1039"
+            width="227" height="51"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1039"
+  DrawAspect="Content" ObjectID="_1247562749">
+ </o:OLEObject>
+</xml><![endif]--></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><span
+          class="GramE">where</span>
+        <b style="">L</b> is the vector sum of the angular <span
+          class="SpellE">momenta</span>
+        in the system.<br>
+        <br>
+      </p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><br>
+      </p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><a
+          moz-do-not-send="true"
+href="https://www.physics.louisville.edu/cldavis/phys298/hwprobex/RotDynexamples_part1.pdf">Example
+          Problem</a><br>
+        <o:p></o:p></p>
+      <p><font><img
+            src="http://www.physics.louisville.edu/cldavis/phys298/notes/netbar.gif"
+            width="100%" height="40" align="middle">
+          <br>
+        </font></p>
+      <p style="text-align: center;" align="center"><span style="color:
+          red;">“<i style="">It’s not that I’m afraid to
+            die.<span style="">&nbsp; </span>I just don’t want to be
+            there
+            when it happens</i>” <o:p></o:p></span></p>
+      <p style="text-align: center;" align="center">Woody Allen – <i
+          style="">Death</i>
+        (1975)</p>
+      <p class="MsoNormal" style="text-align: center;" align="center"><img
+          id="_x0000_i1034" src="celticbar.gif" width="576" height="22"
+          border="0"><br>
+        &nbsp; </p>
+      <p style="text-align: center;" align="center"><i>Dr. C. L. Davis</i><br>
+        <i>Physics Department</i><br>
+        <i>University of </i><st1:city><st1:place><i>Louisville</i></st1:place></st1:city><br>
+        <i>email</i>: <a href="mailto:c.l.davis@louisville.edu">c.l.davis@louisville.edu</a>
+        <br>
+        &nbsp; </p>
+      <p style="text-align: center;" align="center"><img
+          id="_x0000_i1035" src="header-index.gif" width="92"
+          height="51" border="0"></p>
+      <p><o:p>&nbsp;</o:p></p>
+    </div>
+  </body>
+</html>

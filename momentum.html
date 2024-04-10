@@ -1,0 +1,831 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:w="urn:schemas-microsoft-com:office:word"
+  xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+  xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word 10">
+    <meta name="Originator" content="Microsoft Word 10">
+    <link rel="File-List" href="momentum_files/filelist.xml">
+    <link rel="Edit-Time-Data" href="momentum_files/editdata.mso">
+    <link rel="OLE-Object-Data" href="momentum_files/oledata.mso">
+    <!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+    <title>Momentum and Collisions - Physics 298</title>
+  </head>
+  <body style="" vlink="#551a8b" link="#0000ee" lang="EN-US"
+    bgcolor="white" alink="#ff0000">
+    <o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="City"></o:smarttagtype> <o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="city"></o:smarttagtype><o:smarttagtype
+      namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+      name="place"></o:smarttagtype><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Chris L. Davis</o:Author>
+  <o:LastAuthor>Chris L. Davis</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>220</o:TotalTime>
+  <o:Created>2007-07-26T17:45:00Z</o:Created>
+  <o:LastSaved>2007-07-26T17:45:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1177</o:Words>
+  <o:Characters>6711</o:Characters>
+  <o:Company>University of Louisville</o:Company>
+  <o:Lines>55</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7873</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+    <style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:#0000EE;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#551A8B;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:56.7pt 42.5pt 56.7pt 85.05pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:808941980;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1550529494 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:920259755;
+	mso-list-template-ids:1361237692;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2
+	{mso-list-id:1104493172;
+	mso-list-template-ids:-1980837910;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:1350254923;
+	mso-list-template-ids:703998702;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:1473983554;
+	mso-list-template-ids:350921980;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:1556700530;
+	mso-list-template-ids:1660292602;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:1819029613;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1490380534 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+  </style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+    <meta name="Author" content="C. L. Davis">
+    <!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="4098"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+    <div class="Section1">
+      <h1 style="text-align: center;" align="center"><span style="color:
+          black;"><img id="_x0000_i1025" src="ULPhys1.gif" width="189"
+            height="50" align="texttop"><o:p></o:p></span></h1>
+      <h1 style="text-align: center;" align="center"><span style="color:
+          black;">MOMENTUM and COLLISIONS<o:p></o:p></span></h1>
+      <p class="MsoNormal" style="text-align: center;" align="center"><span
+          style="color: black;"><img id="_x0000_i1026"
+            src="celticbar.gif" width="576" height="22"><br>
+          <br>
+        </span><i><span style="color: red;">"What one man can invent
+            another can discover"</span></i><span style="color: black;"><br>
+          Arthur Conan Doyle<o:p></o:p></span></p>
+      <p class="MsoNormal"><font><img
+            src="http://www.physics.louisville.edu/cldavis/phys298/notes/netbar.gif"
+            width="100%" height="40" align="middle"> <br>
+          &nbsp; <br>
+        </font></p>
+      <ul style="margin-top: 0in;" type="disc">
+        <li class="MsoNormal" style="color: black;"><st1:city><st1:place>Newton</st1:place></st1:city>’s
+
+
+
+
+
+
+          2<sup>nd</sup> law of motion for a single particle can be
+          written,<o:p></o:p></li>
+      </ul>
+      <p class="MsoNormal" style="margin-left: 0.25in;"><span
+          style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <p class="MsoNormal" style="margin-left: 0.25in; text-align:
+        center;" align="center"><span style="color: black;"><sub><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1028" type="#_x0000_t75" style='width:150.75pt;
+ height:30.75pt' o:ole="">
+ <v:imagedata src="momentum_files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+              src="momentum_files/image002.gif" v:shapes="_x0000_i1028"
+              width="201" height="41"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1028"
+  DrawAspect="Content" ObjectID="_1246962720">
+ </o:OLEObject>
+</xml><![endif]--><o:p></o:p></span></p>
+      <p class="MsoNormal" style="margin-left: 0.25in; text-align:
+        center;" align="center"><span style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><span
+          class="GramE"><span style="color: black;">where</span></span><span
+          style="color: black;"> we have assumed that the mass of the
+          particle is independent of time and we define the <b><i>momentum</i></b>
+          of the particle, <b>p</b> = <span class="SpellE">m<b>v</b></span>.&nbsp;
+Momentum
+is
+a
+
+
+
+
+
+
+          clearly a vector quantity, with units, <span class="SpellE">kg.m</span>/s<span
+            class="GramE">&nbsp; (</span>SI) or <span class="SpellE">slug.ft</span>/s&nbsp;
+
+
+
+
+
+
+          (British).<o:p></o:p></span></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><span
+          style="color: black;"><img id="_x0000_i1029" src="hot.gif"
+            width="79" height="43" align="middle">&nbsp;<span
+            class="GramE">Note that writing the 2<sup>nd</sup> law as
+            force equal to the rate of change of momentum is the form in
+            which </span></span><st1:city><st1:place><span
+              class="GramE"><span style="color: black;">Newton</span></span></st1:place></st1:city><span
+          class="GramE"><span style="color: black;"> developed the law.</span></span><span
+          style="color: black;"><o:p></o:p></span></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><span
+          style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <ul style="margin-top: 0in;" type="disc">
+        <li class="MsoNormal" style="color: black;">For a system of
+          particles we have just seen that&nbsp; <span style="color:
+            windowtext;"><sub><!--[if gte vml 1]><v:shape id="_x0000_i1030" type="#_x0000_t75"
+      style='width:74.25pt;height:20.25pt' o:ole="">
+      <v:imagedata src="momentum_files/image003.wmz" o:title=""/>
+     </v:shape><![endif]--><!--[if !vml]--><img
+                src="momentum_files/image004.gif" style="height: 27px;
+                width: 99px;" v:shapes="_x0000_i1030" width="99"
+                height="27" align="top"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+      <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1030"
+       DrawAspect="Content" ObjectID="_1246962721">
+      </o:OLEObject>
+     </xml><![endif]-->&nbsp;.&nbsp; This expression can be written</span><o:p></o:p></li>
+      </ul>
+      <p class="MsoNormal" style="margin-left: 0.25in;"><span
+          style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <p class="MsoNormal" style="margin-left: 0.25in; text-align:
+        center;" align="center"><span style="color: black;"><sub><!--[if gte vml 1]><v:shape id="_x0000_i1031" type="#_x0000_t75"
+ style='width:345pt;height:35.25pt' o:ole="">
+ <v:imagedata src="momentum_files/image005.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+              src="momentum_files/image006.gif" v:shapes="_x0000_i1031"
+              width="460" height="47"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1031"
+  DrawAspect="Content" ObjectID="_1246962722">
+ </o:OLEObject>
+</xml><![endif]--><o:p></o:p></span></p>
+      <p class="MsoNormal" style="margin-left: 0.25in; text-align:
+        center;" align="center"><span style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><span
+          class="GramE"><span style="color: black;">where</span></span><span
+          style="color: black;"> <b>P</b> is the vector sum of all the
+          individual particle <span class="SpellE">momenta</span> in
+          the system.<br>
+        </span></p>
+      <p class="MsoNormal" style="margin-left: 0.5in;"><br>
+        <span style="color: black;"><o:p></o:p></span></p>
+      <ul style="margin-top: 0in;" type="disc">
+        <li class="MsoNormal" style="color: black;">Suppose now that <span
+            class="SpellE"><b>F<sub>ext</sub></b></span> = 0, that is
+          there are no <b><i>external</i></b> forces acting on the
+          system.&nbsp; In this case,&nbsp; <sub><!--[if gte vml 1]><v:shape id="_x0000_i1032"
+      type="#_x0000_t75" style='width:38.25pt;height:33pt' o:ole="">
+      <v:imagedata src="momentum_files/image007.wmz" o:title=""/>
+     </v:shape><![endif]--><!--[if !vml]--><img
+              src="momentum_files/image008.gif" style="height: 44px;
+              width: 51px;" v:shapes="_x0000_i1032" width="51"
+              height="44" align="middle"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+      <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1032"
+       DrawAspect="Content" ObjectID="_1246962723">
+      </o:OLEObject>
+     </xml><![endif]-->&nbsp;<span class="GramE">which means that <b>P</b>
+            is constant.</span><o:p></o:p></li>
+      </ul>
+      <ul style="margin-top: 0in;" type="disc">
+        <li class="MsoNormal" style="color: black;"><img
+            id="_x0000_i1033" src="tickred1.gif" width="48" height="48"><b><u><span
+                style="font-size: 24pt; color: red;">Conservation of
+                Momentum</span></u></b><img id="_x0000_i1034"
+            src="tickred1.gif" width="48" height="48"> <o:p></o:p></li>
+      </ul>
+      <p style="margin-left: 0.5in;"><span style="color: black;">Important
+basic
+
+
+
+
+
+
+          principle of Science<o:p></o:p></span></p>
+      <p style="margin-left: 0.5in; text-align: center;" align="center"><span
+          style="color: black;"><img id="_x0000_i1035" src="hot.gif"
+            width="79" height="43" align="middle"></span><b><i><span
+              style="font-size: 24pt; color: black;">"Total momentum of
+              a system remains constant,</span></i></b><span
+          style="color: black;"><img id="_x0000_i1036" src="hot.gif"
+            width="79" height="43" align="middle"> <br>
+          <b><i>when the net external force acting on the system is
+              zero"</i></b><o:p></o:p></span></p>
+      <p style="margin-left: 0.5in;"><span style="color: black;"><img
+            id="_x0000_i1037" src="exclamation-icon.gif" width="31"
+            height="30">Within the system objects may collide with each
+          other, thus exerting forces on each other.&nbsp; However, </span><st1:city><st1:place><span
+              style="color: black;">Newton</span></st1:place></st1:city><span
+          style="color: black;">'s 3rd law states that these forces are
+          equal in magnitude, but opposite in direction, therefore there
+          is no <b><i>net</i></b> force.&nbsp; The system conserves
+          momentum.&nbsp; In order to ensure momentum conservation we
+          must choose our "system" such that the net force is zero, in
+          which case; <o:p></o:p></span></p>
+      <p style="margin-left: 0.5in;"><i><span style="color: black;">"Total
+momentum
+of
+
+
+
+
+
+
+            system before collision = Total momentum of system after
+            collision"</span></i><span style="color: black;"><img
+            id="_x0000_i1038" src="anim_catmouse.gif" width="140"
+            height="104" align="middle"> <o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in; text-align: center;"
+        align="center"><span style="color: black;"><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1039" type="#_x0000_t75" style='width:233.25pt;height:18.75pt'
+ o:ole="">
+ <v:imagedata src="momentum_files/image009.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+              src="momentum_files/image010.gif" v:shapes="_x0000_i1039"
+              width="311" height="25"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1039"
+  DrawAspect="Content" ObjectID="_1246962724">
+ </o:OLEObject>
+</xml><![endif]--><o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;">Note
+that
+
+
+
+
+
+
+          since momentum is a vector quantity, this equation is actually
+          three scalar equations, one for momentum along each of the
+          three Cartesian axes, <span class="SpellE">x<span
+              class="GramE">,y,z</span></span>.<o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;"><img
+            id="_x0000_i1040" src="exclamation-icon.gif" width="31"
+            height="30">&nbsp;The condition that the net external force
+          on the system be zero appears to make momentum conservation
+          less basic that energy conservation (since there is no such
+          condition for energy).&nbsp; However, if we define the
+          Universe as our system, then all forces are internal and
+          universal momentum conservation is guaranteed.<o:p></o:p></span></p>
+      <br>
+      <div style="margin-left: 40px;"><span style="color: black;"><img
+            id="_x0000_i1041" src="exclamation-icon.gif" width="31"
+            height="30">&nbsp;On a more practical note, since we do not
+          want to consider the whole Universe every time we apply
+          momentum conservation, we can consider external forces zero in
+          the following two situations<o:p></o:p></span><br>
+      </div>
+      <ul>
+        <ul>
+          <li><!--[if !supportLists]--><span style="font-family: Symbol;
+              color: black;"></span><span style="color: black;">Choose
+              the system such that there are external forces only in the
+              y direction; then momentum is conserved in x and z (e.g.
+              billiard ball collisions).<o:p></o:p></span></li>
+        </ul>
+      </ul>
+      <ul>
+        <ul>
+          <li><!--[if !supportLists]--><span style="font-family: Symbol;
+              color: black;"><span style=""><span style="font-family:
+                  &quot;Times New Roman&quot;; font-style: normal;
+                  font-variant: normal; font-weight: normal; font-size:
+                  7pt; line-height: normal; font-size-adjust: none;
+                  font-stretch: normal;"></span></span></span><!--[endif]--><span
+              style="color: black;">Choose the system such that <span
+                style=""></span>the external force is much smaller than
+              the internal forces involved during a collision.&nbsp; In
+              this case momentum will not be <i style="">exactly</i>
+              conserved, but applying momentum conservation will be a
+              good approximation.<o:p></o:p></span></li>
+        </ul>
+      </ul>
+      <p style="margin: 5pt 0in 12pt 1in; text-indent: -0.25in;"><span
+          style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <ul>
+        <li><!--[if !supportLists]--><span style="font-size: 14pt;
+            font-family: Symbol; color: black;"><span style=""><span
+                style="font-family: &quot;Times New Roman&quot;;
+                font-style: normal; font-variant: normal; font-weight:
+                normal; font-size: 7pt; line-height: normal;
+                font-size-adjust: none; font-stretch: normal;"></span></span></span><!--[endif]--><b><u><span
+                style="font-size: 14pt; color: black;">Application of
+                Momentum Conservation to Collisions<o:p></o:p></span></u></b></li>
+      </ul>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;">Given
+that
+we
+
+
+
+
+
+
+          can assume momentum is conserved there are two classes of
+          collisions<o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 1in; text-indent: -0.25in;"><!--[if !supportLists]--><span
+          style="font-family: &quot;Courier New&quot;; color: black;"><span
+            style="">o<span style="font-family: &quot;Times New
+              Roman&quot;; font-style: normal; font-variant: normal;
+              font-weight: normal; font-size: 7pt; line-height: normal;
+              font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+            </span></span></span><!--[endif]--><b><span style="color:
+            red;">ELASTIC:</span></b><span style="color: black;"><span
+            style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Kinetic
+          energy is conserved, <span class="SpellE">KE<sub>initial</sub></span>
+          = <span class="SpellE">KE<sub>final</sub></span><o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 1in; text-indent: -0.25in;"><!--[if !supportLists]--><span
+          style="font-family: &quot;Courier New&quot;; color: black;"><span
+            style="">o<span style="font-family: &quot;Times New
+              Roman&quot;; font-style: normal; font-variant: normal;
+              font-weight: normal; font-size: 7pt; line-height: normal;
+              font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+            </span></span></span><!--[endif]--><b><span style="color:
+            red;">INELASTIC:</span></b><span style="color: black;"><span
+            style="">&nbsp; </span>Kinetic energy is not conserved.<o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 1.5in; text-indent: -0.25in;"><!--[if !supportLists]--><span
+          style="font-family: Wingdings; color: black;"><span style="">§<span
+              style="font-family: &quot;Times New Roman&quot;;
+              font-style: normal; font-variant: normal; font-weight:
+              normal; font-size: 7pt; line-height: normal;
+              font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+            </span></span></span><!--[endif]--><span style="color:
+          black;">If the maximum kinetic energy is lost, consistent with
+          momentum conservation, the collision is called </span><b><span
+            style="color: red;">Completely Inelastic</span></b><span
+          style="color: black;">. <span style="">&nbsp;</span>This
+          situation can be achieved when two objects stick together
+          after colliding.<o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 1.5in; text-indent: -0.25in;"><!--[if !supportLists]--><span
+          style="font-family: Wingdings; color: black;"><span style="">§<span
+              style="font-family: &quot;Times New Roman&quot;;
+              font-style: normal; font-variant: normal; font-weight:
+              normal; font-size: 7pt; line-height: normal;
+              font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+            </span></span></span><!--[endif]--><span style="color:
+          black;">In inelastic collisions the “lost” kinetic energy is
+          converted into some other form of energy – heat, sound,
+          elastic etc.<o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 1.5in; text-indent: -0.25in;"><!--[if !supportLists]--><span
+          style="font-family: Wingdings; color: black;"><span style="">§<span
+              style="font-family: &quot;Times New Roman&quot;;
+              font-style: normal; font-variant: normal; font-weight:
+              normal; font-size: 7pt; line-height: normal;
+              font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+            </span></span></span><!--[endif]--><span style="color:
+          black;">The <i style="">total</i> energy in a system is <b><i
+              style="">always</i></b> conserved, but in collisions we
+          are usually only able to easily measure kinetic energies,
+          which <span class="GramE">means</span> we can apply (kinetic)
+          energy conservation only to elastic collisions.<o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;"><span
+            style="">&nbsp;</span></span><span style="color: black;"><img
+            id="_x0000_i1045" src="exclamation-icon.gif" width="31"
+            height="30"><span style="">&nbsp;</span>Remember, momentum
+          is a vector quantity.<span style="">&nbsp; </span>Thus, in
+          three dimensions, application of conservation of momentum will
+          lead to 3 equations relating the components of momentum before
+          and after a collision.<br>
+        </span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;">Momentum conservation video
+        <a href="http://www.youtube.com/watch?v=4ZrXUc6SA7c">example</a><br>
+        and another one from <a
+          href="https://www.youtube.com/watch?v=y2Gb4NIv0Xg">Bill Nye</a><br>
+        <span style="color: black;"><o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <ul>
+        <li><!--[if !supportLists]--><span style="font-size: 14pt;
+            font-family: Symbol; color: black;"><span style=""><span
+                style="font-family: &quot;Times New Roman&quot;;
+                font-style: normal; font-variant: normal; font-weight:
+                normal; font-size: 7pt; line-height: normal;
+                font-size-adjust: none; font-stretch: normal;"></span></span></span><b
+            style=""><u><span style="font-size: 14pt; color: black;">Impulse
+
+
+
+
+
+
+                and Collisions<o:p></o:p></span></u></b></li>
+      </ul>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;">Using
+the
+alternative
+
+
+
+
+
+
+          formulation of the second law<span class="GramE">, <span
+              style="">&nbsp;</span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1046" type="#_x0000_t75" style='width:68.25pt;height:35.25pt'
+ o:ole="">
+ <v:imagedata src="momentum_files/image011.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+                src="momentum_files/image012.gif"
+                v:shapes="_x0000_i1046" width="91" height="47"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1046"
+  DrawAspect="Content" ObjectID="_1246962725">
+ </o:OLEObject>
+</xml><![endif]--><span style="">&nbsp;</span>,</span> we can write<o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in; text-align: center;"
+        align="center"><span style="color: black;"><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1048" type="#_x0000_t75" style='width:78.75pt;height:27.75pt'
+ o:ole="">
+ <v:imagedata src="momentum_files/image013.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+              src="momentum_files/image014.gif" v:shapes="_x0000_i1048"
+              width="105" height="37"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1048"
+  DrawAspect="Content" ObjectID="_1246962726">
+ </o:OLEObject>
+</xml><![endif]--><o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in; text-align: center;"
+        align="center"><span style="color: black;"><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1047" type="#_x0000_t75" style='width:180pt;height:21.75pt' o:ole="">
+ <v:imagedata src="momentum_files/image015.wmz" o:title=""/>
+</v:shape><![endif]--><!--[if !vml]--><img
+              src="momentum_files/image016.gif" v:shapes="_x0000_i1047"
+              width="240" height="29"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1047"
+  DrawAspect="Content" ObjectID="_1246962727">
+ </o:OLEObject>
+</xml><![endif]--><o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in; text-align: center;"
+        align="center"><span style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;">The
+impulse
+
+
+
+
+
+
+          is defined here for a single object, during a 2 body collision
+          the impulse on the first object will be equal and opposite <span
+            class="GramE">to</span> that on the second.<span style="">&nbsp;
+
+
+
+
+
+          </span>Consideration of the impulse is most useful when the
+          force during a collision is not constant.<o:p></o:p></span></p>
+      <p style="margin: 5pt 0in 12pt 0.5in;"><span style="color: black;"><o:p>&nbsp;</o:p></span></p>
+      <ul>
+        <li><!--[if !supportLists]--><span style="font-family: Symbol;
+            color: black;"><span style=""><span style="font-family:
+                &quot;Times New Roman&quot;; font-style: normal;
+                font-variant: normal; font-weight: normal; font-size:
+                7pt; line-height: normal; font-size-adjust: none;
+                font-stretch: normal;"> </span></span></span><!--[endif]--><b><span
+              style="color: black;"><!--[if gte vml 1]><v:shape
+ id="_x0000_i1049" type="#_x0000_t75" style='width:48pt;height:30.75pt'>
+ <v:imagedata src="momentum_files/image017.gif" o:title="hamburger01"/>
+</v:shape><![endif]--><!--[if !vml]--><img
+                src="momentum_files/image017.gif"
+                v:shapes="_x0000_i1049" width="64" height="41"><!--[endif]--><span
+                style="">&nbsp;</span><span style="">&nbsp;</span>Food
+              for thought…<o:p></o:p></span></b><span
+            style="font-family: &quot;Courier New&quot;; color: black;"><span
+              style=""><span style="font-family: &quot;Times New
+                Roman&quot;; font-style: normal; font-variant: normal;
+                font-weight: normal; font-size: 7pt; line-height:
+                normal; font-size-adjust: none; font-stretch: normal;"><br>
+              </span></span></span></li>
+      </ul>
+      <ul>
+        <ul>
+          <li><span style="font-family: &quot;Courier New&quot;; color:
+              black;"><span style=""><span style="font-family:
+                  &quot;Times New Roman&quot;; font-style: normal;
+                  font-variant: normal; font-weight: normal; font-size:
+                  7pt; line-height: normal; font-size-adjust: none;
+                  font-stretch: normal;"></span></span></span><span
+              style="color: black;">We have seen that velocity is
+              “relative”<span class="GramE">,</span> the value assigned
+              to a particle depends on the reference frame of the
+              observer.<span style="">&nbsp; </span>Therefore, momentum
+              (and kinetic energy) is also dependent on the observer’s
+              reference frame.<span style="">&nbsp; </span>Different
+              observers of the same system may measure different values
+              for <b>P</b> and <b>p<sub>i</sub></b>, but due to
+              momentum conservation each will find his/her value of the
+              total momentum unchanged.<span style="font-family:
+                &quot;Times New Roman&quot;;"></span><o:p></o:p></span></li>
+        </ul>
+      </ul>
+      <!--[endif]-->
+      <ul>
+        <ul>
+          <li><!--[if !supportLists]--><span style="font-family:
+              &quot;Courier New&quot;; color: black;"><span style=""><span
+                  style="font-family: &quot;Times New Roman&quot;;
+                  font-style: normal; font-variant: normal; font-weight:
+                  normal; font-size: 7pt; line-height: normal;
+                  font-size-adjust: none; font-stretch: normal;"></span></span></span><!--[endif]--><span
+              style="color: black;">Conservation of energy, momentum and
+              mass are <b><i style="">extremely important</i></b> in
+              describing nature.<span style="">&nbsp; </span>In the
+              realm of large velocities (approaching the speed of light)
+              Newtonian mechanics is no longer&nbsp; valid – we must use
+              <a
+href="http://nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-bio.html">Einstein</a>’s
+theory
+of
+
+
+
+
+
+
+
+              Relativity<span style="">&nbsp; </span><span
+                class="GramE">To</span> describe the interactions of
+              matter at very small distances we must use the theory of <a
+href="http://www.pbs.org/transistor/science/info/quantum.html">Quantum
+                Mechanics.</a><span style="">&nbsp; </span>However,
+              energy, momentum and mass conservation remain valid under
+              <a
+href="http://www.livescience.com/48922-theory-of-relativity-in-real-life.html">Relativity</a>
+              and <a
+href="http://newton.ex.ac.uk/research/qsystems/people/jenkins/mbody/mbody2.html">Quantum
+
+
+
+
+
+
+                Mechanics</a>.<span style="">&nbsp; </span>These
+              conservation laws are certainly more fundamental than </span><st1:city><st1:place><span
+                  style="color: black;">Newton</span></st1:place></st1:city><span
+              style="color: black;">’s Laws of motion. <o:p></o:p></span><span
+              style="font-size: 14pt; color: black;"><o:p> <br>
+              </o:p></span></li>
+        </ul>
+      </ul>
+      <p class="MsoNormal"><font><img
+            src="http://www.physics.louisville.edu/cldavis/phys298/notes/netbar.gif"
+            width="100%" height="40" align="middle"> <br>
+          &nbsp; <br>
+        </font></p>
+      <p class="MsoNormal" style="text-align: center;" align="center"><i><span
+            style="color: red;"><br>
+            "To mark the opening of a sports hall for juvenile offenders
+            the Prime Minister up rooted a tree."</span></i><span
+          style="color: black;"><br>
+          Ronnie Barker<br>
+          <br>
+          <img id="_x0000_i1043" src="celticbar.gif" width="576"
+            height="22" border="0"><br>
+          &nbsp; <o:p></o:p></span></p>
+      <p style="text-align: center;" align="center"><i><span
+            style="color: black;">Dr. C. L. Davis</span></i><span
+          style="color: black;"><br>
+          <i>Physics Department</i><br>
+          <i>University of </i></span><st1:city><st1:place><i><span
+                style="color: black;">Louisville</span></i></st1:place></st1:city><span
+          style="color: black;"><br>
+          <i>email</i>: <a href="mailto:c.l.davis@louisville.edu">c.l.davis@louisville.edu</a>
+          <br>
+          &nbsp; <o:p></o:p></span></p>
+      <p style="text-align: center;" align="center"><span style="color:
+          black;"><img id="_x0000_i1044" src="header-index.gif"
+            width="92" height="51" border="0"><o:p></o:p></span></p>
+      <p><span style="color: black;"><o:p>&nbsp;</o:p></span></p>
+    </div>
+  </body>
+</html>
